@@ -15,7 +15,7 @@ def dictionary
 }
 end
 
-def word_substituter(string)
+def word_substituter(str)
      #turn str to array using split
    tweet = str.split(" ")
    #iterate through each element of the str
